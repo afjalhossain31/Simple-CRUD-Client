@@ -1,5 +1,5 @@
-import { updateUser } from "@/app/lib/actions";
-import { getUserById } from "@/app/lib/data";
+import { updateUser } from "@/lib/actions";
+import { getUserById } from "@/lib/data";
 import { Button, Input, Label, Modal, TextField } from "@heroui/react";
 import Link from "next/link";
 import React from "react";
